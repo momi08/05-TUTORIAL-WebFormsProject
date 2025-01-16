@@ -150,6 +150,8 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="BazaDisconnected.aspx" />
+    <Content Include="BazaAutomatsko.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -238,6 +240,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BazaDisconnected.aspx.cs">
+      <DependentUpon>BazaDisconnected.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BazaDisconnected.aspx.designer.cs">
+      <DependentUpon>BazaDisconnected.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BazaAutomatsko.aspx.cs">
+      <DependentUpon>BazaAutomatsko.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BazaAutomatsko.aspx.designer.cs">
+      <DependentUpon>BazaAutomatsko.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
